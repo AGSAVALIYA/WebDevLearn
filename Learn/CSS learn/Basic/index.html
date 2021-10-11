@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>CSS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h2>Home</h2>
+            <div id="div1">
+                <p class="webtext active">Lorem ipsum</p>
+                <p class="webtext">Lorem ipsum</p>
+            </div>
+            <div id="div2">
+                <p class="webtext active">Lorem ipsum</p>
+                <p class="webtext">Lorem ipsum</p>
+            </div>
+        </section>
+        <button onclick="goBack()">Go Back</button>
+
+        <script>
+        function goBack() {
+          window.history.back();
+        }
+        </script>
+    </body>
+</html>

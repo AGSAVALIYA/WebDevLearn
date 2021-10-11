@@ -1,0 +1,54 @@
+/* Selector {
+    Property: value;
+} */
+
+*{
+    text-align: center;
+}
+body{
+    background-image: url(bg1.png);
+    background-size: cover;
+}
+h2 ,p:hover{
+    color: rgb(43, 92, 181);
+    text-align: center;
+    border: 5px solid rgb(24, 55, 183);
+    cursor: pointer;
+}
+li{
+    list-style: none;
+    display: inline;
+}
+p{
+    color: rgb(6, 89, 20);
+}
+.webtext{
+    border: 5px dashed blue;
+}
+.active{
+    color: rgb(212, 0, 255);
+}
+#div1 {
+    background-color: rgb(125, 253, 211, 0.5);
+}
+#div2 {
+    background-color: rgba(255, 247, 18, 0.761);
+}
+img {
+    float: left;
+}
+button {
+     background-color: #49fad4a1;  
+    border: 10px solid pink;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5em; 
+    transition: 0.5s;
+}
+button:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 10px 10px rgb(3, 248, 203);
+}

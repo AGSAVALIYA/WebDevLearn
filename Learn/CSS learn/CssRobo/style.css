@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(242, 202, 202);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: solid;
+}
+
+.robots {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.head, 
+.left_arm, 
+.torso, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+    background-color: #46f50b;
+}
+
+.head {
+    width: 200px;
+    margin: 0 auto;
+    height: 150px;
+    border-radius: 200px 200px 0 0;
+    margin-bottom: 10px;
+}
+
+.eyes {
+    display: flex;
+}
+
+.head:hover {
+    width: 300px;
+    transition: 1s ease-in-out;
+}
+
+.upper_body {
+    width: 300px;
+    height: 150px;
+    display: flex;
+}
+
+.left_arm, .right_arm{
+    width: 40px;
+    height: 125px;
+    border-radius: 100px;
+}
+
+.left_arm {
+    margin-right: 10px;
+}
+
+.right_arm {
+    margin-left: 10px;
+}
+.right_arm:hover {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.torso {
+    width: 200px;
+    height: 200px;
+    border-radius: 0 0 50px 50px;
+}
+
+.lower_body {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left_leg, .right_leg {
+    width: 40px;
+    height: 120px;
+    border-radius: 0 0 100px 100px;
+}
+
+.left_leg {
+    margin-left: 45px;
+}
+
+.left_leg:hover {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.right_leg {
+    margin-left: 30px;
+}
+
+.left_eye, .right_eye {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.left_eye {
+    position: relative;
+    top: 100px;
+    left: 40px;
+}
+
+.right_eye {
+    position: relative;
+    top: 100px;
+    left: 120px;
+}
+
+button {
+    background-color: #49fad4a1;  
+   /* border: 10px solid pink; */
+   border-radius: 20px;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   display: inline-block;
+   font-size: 1.5em; 
+   transition: 0.5s;
+}
+button:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 10px 10px rgb(3, 248, 203);
+}
